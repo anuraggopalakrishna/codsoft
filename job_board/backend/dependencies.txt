@@ -1,0 +1,22 @@
+-- npm init
+
+-- npm i bcrypt cloudinary cookie-parser cors dotenv express express-fileupload jsonwebtoken mongoose validator nodemon
+
+[bcrypt- hashing
+cloudinary - image uploading
+cookie-parser -> user signin
+cors - connect frontend and backend
+.env - secret keys
+express - server framework
+jsonwebtoken - authentication
+mongoose - database
+validator - email validator]
+
+-- [In package.json
+after main
+"type":"module",
+ "scripts": {
+    "start": "node server.js","dev": "nodemon server.js"
+  },
+]
+
